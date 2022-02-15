@@ -7,7 +7,7 @@ class CartItem extends React.Component{
         super();
         this.state = {
             price : 999,
-            title : 'Phone',
+            title : 'Mobile Phone',
             Qty : 1,
             img : ''
         }
@@ -63,14 +63,14 @@ class CartItem extends React.Component{
                         <img 
                             alt="increase" 
                             className="action-icons" 
-                            src="https://cdn-icons.flaticon.com/png/128/3303/premium/3303893.png?token=exp=1644470993~hmac=9894b0882ef0c5333be50ca36671aff4" 
+                            src="https://cdn-icons.flaticon.com/png/512/3303/premium/3303893.png?token=exp=1644903811~hmac=585360da0770bff2748a555e5a2657f9" 
                             onClick={this.increaseQuantity}
                         />
                         
                         <img 
                             alt="decrease" 
                             className="action-icons" 
-                            src="https://cdn-icons.flaticon.com/png/128/2740/premium/2740679.png?token=exp=1644471139~hmac=0b5414ed185c34cd1426dfb09b41a781"
+                            src="https://cdn-icons-png.flaticon.com/512/992/992683.png"
                             onClick={this.decreaseQuantity}
                         />
                         
